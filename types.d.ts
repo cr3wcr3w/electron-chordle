@@ -3,5 +3,7 @@ type helloWorld = {
 };
 
 interface Window {
-  electron: helloWorld;
+  electron: {
+    helloWorld;
+  };
 }
